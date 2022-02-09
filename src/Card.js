@@ -1,9 +1,10 @@
 import React from "react";
+import Info from "./components/Info";
 
 function Card() {
   return (
-    <div className="card">
-      <h1>Phan Ba Duy</h1>
+    <div className="container">
+      <Info />
     </div>
   );
 }

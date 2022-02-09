@@ -1,0 +1,56 @@
+
+
+.container {
+    width: 300px;
+    margin: 100px auto;
+    font-family: Inter, sans-serif;
+    background-color: #1A1B21;
+}
+
+.avatar {
+    width: 320px;
+}
+
+.info-text {
+    /* display: flex; */
+}
+
+.name {
+    margin: 0;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+.position {
+    margin: 0;
+    color: #F3BF99;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+}
+
+.website {
+    font-size: 10.24px;
+    line-height: 150%;
+    text-align: center;
+    color: #F5F5F5;
+    margin: 8px 0 16px 0;
+}
+
+.btn-div {
+    display: flex;
+    justify-content: center;
+}
+
+.email-btn {
+    width: 250px;
+    height: 34px;
+    background: #FFF;
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 10px;
+}
