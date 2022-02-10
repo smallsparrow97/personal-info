@@ -1,5 +1,6 @@
 import React from "react";
 import avatar from "../images/avatar.png";
+import { HiMail } from 'react-icons/hi';
 
 function Info() {
     return (
@@ -8,9 +9,11 @@ function Info() {
             <div className="info-text">
                 <h1 className="name">Phan Ba Duy</h1>
                 <p className="position">Fullstack Developer</p>
-                <p className="website">facebook.com/ozawabinladen</p>
+                <p className="website">facebook.com/ozawabinladen97</p>
                 <div className="btn-div">
-                    <button className="email-btn">Email</button>
+                    <a href="mailto:baduy9780@gmail.com">
+                        <button className="email-btn"><HiMail className="mail-icon" />Email</button>
+                    </a>
                 </div>
             </div>
         </div>
